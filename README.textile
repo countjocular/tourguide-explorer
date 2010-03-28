@@ -1,5 +1,4 @@
-h1. TourGuide - Explorer
-h2. An addon for World Of Warcraft
+h1. TourGuide - Explorer (An addon for World Of Warcraft)
 p. _TourGuide - Explorer_ is a small addon to help players working towards the "World Explorer":http://www.wowhead.com/?achievement=46 achievement.
-p. This addon requires "TourGuide"http://github.com/tekkub/TourGuide: by "Tekkub":http://github.com/tekkub.
+p. This addon requires "TourGuide":http://github.com/tekkub/TourGuide by "Tekkub":http://github.com/tekkub.
 
