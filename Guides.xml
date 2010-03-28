@@ -1,0 +1,6 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Durotar.lua"/>
+	<Script file="The_Barrens.lua"/>
+	<Script file="Mulgore.lua"/>
+</Ui>
+

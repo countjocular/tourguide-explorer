@@ -1,0 +1,15 @@
+## Interface: 30200
+
+## Title: Tour Guide (Explorer)
+## Notes: Helpful notes for getting the World Explorer achievement
+## Author: Count Jocular
+## Version: 0.3
+## X-Category: Quest
+
+## RequiredDeps: TourGuide
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+Guides.xml
+
