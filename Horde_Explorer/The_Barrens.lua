@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Explore Kalimdor - The Barrens (North)", "Explore Kalimdor - The Barrens (South)", nil, function()
+TourGuide:RegisterGuide("Explore Kalimdor - The Barrens (North)", "Explore Kalimdor - The Barrens (South)", "Horde", function()
 return [[
 F The Crossroads
 R The Crossroads |N|(51, 28)| |Z|The Barrens|
@@ -17,7 +17,7 @@ R The Stagnant Oasis |N|(55, 42)|
 ]]
 end)
 
-TourGuide:RegisterGuide("Explore Kalimdor - The Barrens (South)", "Explore Kalimdor - Mulgore", nil, function()
+TourGuide:RegisterGuide("Explore Kalimdor - The Barrens (South)", "Explore Kalimdor - Mulgore", "Horde", function()
 return [[
 F Ratchet
 R Ratchet |N|(62, 37)| |Z|The Barrens|

@@ -1,6 +1,6 @@
-TourGuide:RegisterGuide("Explore Kalimdor - Durotar", "Explore Kalimdor - The Barrens (North)", nil, function()
+TourGuide:RegisterGuide("Explore Kalimdor - Durotar", "Explore Kalimdor - The Barrens (North)", "Horde", function()
 return [[
-F Orgrimmar
+F Orgrimmar |N| Remember to check off any zone you've already discovered before you start!|
 R Orgrimmar |N|(45, 11)| |Z|Orgrimmar|
 R Skull Rock |N|(54, 13)| |Z|Durotar|
 R Drygulch Ravine |N|(53, 23)|

@@ -1,6 +1,6 @@
-TourGuide:RegisterGuide("Explore Kalimdor - Mulgore", nil, nil, function()
+TourGuide:RegisterGuide("Explore Kalimdor - Mulgore", nil, "Horde", function()
 return [[
-F Thunder Bluff
+F Thunder Bluff |N| Remember to check off any zone you've already discovered before you start!|
 R Thunder Bluff |N|(36, 29)| |Z|Thunder Bluff|
 R Bael'Dun Digsite |N|(32, 48)| |Z|Mulgore|
 R Palemane Rock |N|(34, 62)|

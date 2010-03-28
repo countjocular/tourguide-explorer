@@ -2,5 +2,7 @@
 	<Script file="Durotar.lua"/>
 	<Script file="The_Barrens.lua"/>
 	<Script file="Mulgore.lua"/>
+	<Script file="Ashenvale.lua"/>
+	<Script file="Azshara.lua"/>
 </Ui>
 
