@@ -11,5 +11,5 @@
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
 
-Guides.xml
+Horde_Explorer\Guides.xml
 
