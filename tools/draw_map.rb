@@ -3,11 +3,13 @@ require 'rubygems'
 
 require 'RMagick'
 
-canvas = Magick::Image.new(600, 600,
-              Magick::HatchFill.new('white','lightcyan2'))
+filename = ARGV[0]
+
+out   = File.new("output/#{filename}.out", "w")
+canvas = Magick::Image.new(600, 600, Magick::HatchFill.new('white','lightcyan2'))
 gc = Magick::Draw.new
 
-f = File.open('locations.in')
+f = File.open("#{filename}.in")
 a = f.readlines
 a.delete(a.last)
 @previous = a.last
@@ -31,11 +33,14 @@ a.each do |original|
   px = Integer(px)*5
   py = Integer(py)*5
   gc.text(x, y, name)
+  gc.text(x+3, y+10, "(#{x/5}, #{y/5})")
   gc.circle(x,y,x+3,y)
   gc.line(px,py,x,y)
   @previous = original
+
+  out << "R #{name} |N|(#{coords}|\n"
 end
 
 gc.draw(canvas)
-canvas.write('map.gif')
+canvas.write("../maps/#{filename}.gif")
 
