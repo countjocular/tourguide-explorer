@@ -4,5 +4,6 @@
 	<Script file="Mulgore.lua"/>
 	<Script file="Ashenvale.lua"/>
 	<Script file="Azshara.lua"/>
+	<Script file="Ghostlands.lua">
 </Ui>
 
