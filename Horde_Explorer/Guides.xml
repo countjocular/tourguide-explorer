@@ -4,6 +4,7 @@
 	<Script file="Mulgore.lua"/>
 	<Script file="Ashenvale.lua"/>
 	<Script file="Azshara.lua"/>
-	<Script file="Ghostlands.lua">
+	<Script file="Ghostlands.lua"/>
+	<Script file="Western_Plaguelands.lua"/>
 </Ui>
 
