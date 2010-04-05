@@ -13,6 +13,7 @@ f = File.open("#{filename}.in")
 a = f.readlines
 a.delete(a.last)
 @previous = a.last
+@start = a.first
 a.each do |original|
   temp = original.split(' (')
   ptemp = @previous.split(' (')
@@ -34,7 +35,8 @@ a.each do |original|
   py = Integer(py)*5
   gc.text(x, y, name)
   gc.text(x+3, y+10, "(#{x/5}, #{y/5})")
-  gc.circle(x,y,x+3,y)
+  gc.circle(x,y,x+2,y) unless original==@start
+  gc.circle(x,y,x+4,y) if original==@start
   gc.line(px,py,x,y)
   @previous = original
 
