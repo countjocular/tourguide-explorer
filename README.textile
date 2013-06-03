@@ -1,3 +1,5 @@
+"!https://stillmaintained.com/countjocular/tourguide-explorer.png!":https://stillmaintained.com/countjocular/tourguide-explorer
+
 p{color:red}. *OUTDATED*: Since the release of Cataclysm, this addon (which was hardly complete anyway) is thoroughly outdated. I don't intend to update it, but feel free to fork if it takes your fancy.
 
 h1. TourGuide - Explorer
